@@ -4,10 +4,21 @@
   <meta charset="UTF-8">
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vite + React + TS</title>
+  <title>Habit Tracker</title>
+  <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-  <div id="root"></div>
+  <div class="container">
+    <h1>Habit Tracker</h1>
+
+    <form id="habit-form">
+      <input type="text" id="habit-name" placeholder="Enter habit name" required />
+      <button type="submit">Add Habit</button>
+    </form>
+
+    <ul id="habit-list"></ul>
+  </div>
+
   <script type="module" src="/src/main.js"></script>
 </body>
 </html>
