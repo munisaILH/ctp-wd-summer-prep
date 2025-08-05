@@ -159,7 +159,7 @@ function calculateStreak(history) {
 renderHabits();
 =======
 const form = document.getElementById('habit_form')
-const habits = [];
+const habits = [0];
 
 form.addEventListener('submit', (event) => {event.preventDefault()
     event.preventDefault()
